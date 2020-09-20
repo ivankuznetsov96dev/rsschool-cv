@@ -1,0 +1,66 @@
+body {
+  background-color: #eaeaea;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  position: relative;
+  padding: 0 150px;
+}
+
+@media (min-width: 100px) {
+  .container {
+    max-width: 540px;
+    margin: auto;
+    padding: 0;
+  }
+  .photo {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 575.98px) {
+  .container {
+    max-width: 540px;
+    margin: auto;
+    padding: 0;
+  }
+  .photo {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 767.98px) {
+  .container {
+    max-width: 720px;
+  }
+  .photo {
+    visibility: visible;
+  }
+}
+
+@media (min-width: 991.98px) {
+  .container {
+    max-width: 960px;
+  }
+  .photo {
+    visibility: visible;
+  }
+}
+
+@media (min-width: 1199.98px) {
+  .container {
+    max-width: 1024px;
+  }
+  .photo {
+    visibility: visible;
+  }
+}
+
+.photo {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  max-width: 250px;
+  max-height: 250px;
+}
